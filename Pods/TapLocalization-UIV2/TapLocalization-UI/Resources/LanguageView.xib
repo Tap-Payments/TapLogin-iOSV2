@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LanguageView" customModule="TapLocalization_UI">
+            <connections>
+                <outlet property="arrowImageView" destination="diQ-GD-4aC" id="Oqs-ct-5ys"/>
+                <outlet property="languageImageView" destination="W7T-cI-wHJ" id="ow2-Fl-BV6"/>
+                <outlet property="languageLabel" destination="XMw-uW-ty1" id="GJo-MD-MNz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVb-vC-2dO" userLabel="Language Selector View">
+            <rect key="frame" x="0.0" y="0.0" width="107" height="50"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W7T-cI-wHJ">
+                    <rect key="frame" x="0.0" y="9" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="dxW-Qn-Gda"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_language" translatesAutoresizingMaskIntoConstraints="NO" id="diQ-GD-4aC">
+                    <rect key="frame" x="39" y="23" width="6" height="4"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="4" id="Ejs-nI-Z5e"/>
+                        <constraint firstAttribute="width" constant="6" id="bNU-Va-1ZP"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMw-uW-ty1">
+                    <rect key="frame" x="57" y="0.0" width="50" height="50"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNO-dM-82x">
+                    <rect key="frame" x="0.0" y="1" width="107" height="50"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonClicked:" destination="-1" eventType="touchUpInside" id="anA-Jd-C5W"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="XMw-uW-ty1" secondAttribute="trailing" id="2JM-3j-uil"/>
+                <constraint firstAttribute="bottom" secondItem="eNO-dM-82x" secondAttribute="bottom" constant="-1" id="561-b5-X5h"/>
+                <constraint firstItem="W7T-cI-wHJ" firstAttribute="leading" secondItem="YVb-vC-2dO" secondAttribute="leading" id="B4r-fH-52P"/>
+                <constraint firstAttribute="bottom" secondItem="XMw-uW-ty1" secondAttribute="bottom" id="Fp8-4n-EY0"/>
+                <constraint firstAttribute="height" constant="50" id="G8v-Gi-UtS"/>
+                <constraint firstItem="XMw-uW-ty1" firstAttribute="leading" secondItem="diQ-GD-4aC" secondAttribute="trailing" constant="12" id="NUJ-2r-BXW"/>
+                <constraint firstItem="W7T-cI-wHJ" firstAttribute="top" secondItem="YVb-vC-2dO" secondAttribute="top" constant="9" id="Nvg-v3-s1K"/>
+                <constraint firstItem="XMw-uW-ty1" firstAttribute="top" secondItem="YVb-vC-2dO" secondAttribute="top" id="P5C-Xz-ph3"/>
+                <constraint firstAttribute="centerY" secondItem="diQ-GD-4aC" secondAttribute="centerY" id="Uoe-QP-OAX"/>
+                <constraint firstAttribute="trailing" secondItem="eNO-dM-82x" secondAttribute="trailing" id="W0r-AK-LWG"/>
+                <constraint firstAttribute="bottom" secondItem="W7T-cI-wHJ" secondAttribute="bottom" constant="9" id="WBr-tc-Zq5"/>
+                <constraint firstItem="eNO-dM-82x" firstAttribute="leading" secondItem="YVb-vC-2dO" secondAttribute="leading" id="dwN-Ps-Nxg"/>
+                <constraint firstItem="diQ-GD-4aC" firstAttribute="leading" secondItem="W7T-cI-wHJ" secondAttribute="trailing" constant="7" id="evU-lR-N3I"/>
+                <constraint firstItem="eNO-dM-82x" firstAttribute="top" secondItem="YVb-vC-2dO" secondAttribute="top" constant="1" id="pP3-bq-5sR"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_language" width="6" height="4"/>
+    </resources>
+</document>

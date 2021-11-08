@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4470CC61FD82BDC001B5336 /* LoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4470CC51FD82BDC001B5336 /* LoginNavigationController.swift */; };
+		A4470CC81FD82C4F001B5336 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4470CC71FD82C4F001B5336 /* WelcomeViewController.swift */; };
+		A4470CCA1FD82C90001B5336 /* TapLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4470CC91FD82C90001B5336 /* TapLogin.swift */; };
+		A4470CCC1FD8347A001B5336 /* TapLoginLocalizationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4470CCB1FD8347A001B5336 /* TapLoginLocalizationDataSource.swift */; };
+		A4470CCE1FD834B4001B5336 /* TapLoginLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4470CCD1FD834B4001B5336 /* TapLoginLocalization.swift */; };
+		A4470CD11FD83A02001B5336 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4470CD01FD83A02001B5336 /* Images.xcassets */; };
+		A4470CD31FD84B5C001B5336 /* LoginContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4470CD21FD84B5C001B5336 /* LoginContainerViewController.swift */; };
+		A4470CD71FD85CB5001B5336 /* LoginContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4470CD61FD85CB5001B5336 /* LoginContentViewController.swift */; };
+		A4470CD91FD85D2A001B5336 /* LoginPhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4470CD81FD85D2A001B5336 /* LoginPhoneNumberViewController.swift */; };
+		A465DAD41FDD2A4F009FAA3C /* LoginAPIsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465DAD31FDD2A4F009FAA3C /* LoginAPIsHandler.swift */; };
+		A465DAD61FDD3473009FAA3C /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465DAD51FDD3473009FAA3C /* PhoneNumber.swift */; };
+		A465DAD81FDD35AE009FAA3C /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465DAD71FDD35AE009FAA3C /* LoginData.swift */; };
+		A4980B4C1FE2C2B8000EB297 /* LoginNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4980B4B1FE2C2B8000EB297 /* LoginNavigationControllerDelegate.swift */; };
+		A4980B4E1FE2C895000EB297 /* CountryUnavailableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4980B4D1FE2C895000EB297 /* CountryUnavailableViewController.swift */; };
+		A4980B501FE2D96D000EB297 /* TapLoginV2.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A4980B4F1FE2D96C000EB297 /* TapLoginV2.podspec */; };
+		A4A33896201894850034C618 /* TapConfirmationCodeValidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A33893201894840034C618 /* TapConfirmationCodeValidationState.swift */; };
+		A4A33897201894850034C618 /* TapLoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A33894201894840034C618 /* TapLoginRouter.swift */; };
+		A4A33898201894850034C618 /* TapConfirmationCodeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A33895201894850034C618 /* TapConfirmationCodeHandler.swift */; };
+		A4A3F2521FD8252B000FB91D /* TapLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A3F2501FD8252B000FB91D /* TapLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4AA24781FE15EED00F673EE /* TapLoginDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA24771FE15EED00F673EE /* TapLoginDelegate.swift */; };
+		A4AA247A1FE16A8500F673EE /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AA24791FE16A8500F673EE /* Login.storyboard */; };
+		A4AA247C1FE181B800F673EE /* UIStoryboard+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA247B1FE181B800F673EE /* UIStoryboard+Additions.swift */; };
+		A4AA247E1FE181C500F673EE /* Bundle+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA247D1FE181C500F673EE /* Bundle+Additions.swift */; };
+		A4AA24801FE1837F00F673EE /* TapLoginDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA247F1FE1837F00F673EE /* TapLoginDataSource.swift */; };
+		A4AA24821FE1894500F673EE /* Notification.Name+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA24811FE1894500F673EE /* Notification.Name+Additions.swift */; };
+		A4AA24841FE1901E00F673EE /* FeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA24831FE1901E00F673EE /* FeaturesViewController.swift */; };
+		A4AA24861FE1934100F673EE /* FeaturesViewController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA24851FE1934100F673EE /* FeaturesViewController+UICollectionView.swift */; };
+		A4AA24881FE1937900F673EE /* InitialFeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA24871FE1937900F673EE /* InitialFeatureCell.swift */; };
+		A4AA248A1FE193A600F673EE /* InitialFeatureCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA24891FE193A600F673EE /* InitialFeatureCellDelegate.swift */; };
+		A4AA248C1FE1965F00F673EE /* FeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA248B1FE1965F00F673EE /* FeatureCell.swift */; };
+		A4AA248E1FE197E600F673EE /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA248D1FE197E600F673EE /* Feature.swift */; };
+		A4B927511FDE90A500A84EC6 /* LoginConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B927501FDE90A500A84EC6 /* LoginConfirmationViewController.swift */; };
+		BB5B43BCB34B08B76F067CD4 /* Pods_TapLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500FB4F27CAE8F1D713F3FB7 /* Pods_TapLogin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FA18835D60CFF4C5C79AF69 /* Pods-TapLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapLogin/Pods-TapLogin.release.xcconfig"; sourceTree = "<group>"; };
+		500FB4F27CAE8F1D713F3FB7 /* Pods_TapLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		943C3EFCCAC275CAA0853D5C /* Pods-TapLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapLogin/Pods-TapLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		A4470CC51FD82BDC001B5336 /* LoginNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigationController.swift; sourceTree = "<group>"; };
+		A4470CC71FD82C4F001B5336 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A4470CC91FD82C90001B5336 /* TapLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLogin.swift; sourceTree = "<group>"; };
+		A4470CCB1FD8347A001B5336 /* TapLoginLocalizationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLoginLocalizationDataSource.swift; sourceTree = "<group>"; };
+		A4470CCD1FD834B4001B5336 /* TapLoginLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLoginLocalization.swift; sourceTree = "<group>"; };
+		A4470CD01FD83A02001B5336 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4470CD21FD84B5C001B5336 /* LoginContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContainerViewController.swift; sourceTree = "<group>"; };
+		A4470CD61FD85CB5001B5336 /* LoginContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContentViewController.swift; sourceTree = "<group>"; };
+		A4470CD81FD85D2A001B5336 /* LoginPhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPhoneNumberViewController.swift; sourceTree = "<group>"; };
+		A465DAD31FDD2A4F009FAA3C /* LoginAPIsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPIsHandler.swift; sourceTree = "<group>"; };
+		A465DAD51FDD3473009FAA3C /* PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		A465DAD71FDD35AE009FAA3C /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		A4980B4B1FE2C2B8000EB297 /* LoginNavigationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		A4980B4D1FE2C895000EB297 /* CountryUnavailableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryUnavailableViewController.swift; sourceTree = "<group>"; };
+		A4980B4F1FE2D96C000EB297 /* TapLoginV2.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TapLoginV2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4A33893201894840034C618 /* TapConfirmationCodeValidationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapConfirmationCodeValidationState.swift; sourceTree = "<group>"; };
+		A4A33894201894840034C618 /* TapLoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapLoginRouter.swift; sourceTree = "<group>"; };
+		A4A33895201894850034C618 /* TapConfirmationCodeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapConfirmationCodeHandler.swift; sourceTree = "<group>"; };
+		A4A3F24D1FD8252B000FB91D /* TapLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A3F2501FD8252B000FB91D /* TapLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapLogin.h; sourceTree = "<group>"; };
+		A4A3F2511FD8252B000FB91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4AA24771FE15EED00F673EE /* TapLoginDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLoginDelegate.swift; sourceTree = "<group>"; };
+		A4AA24791FE16A8500F673EE /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A4AA247B1FE181B800F673EE /* UIStoryboard+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Additions.swift"; sourceTree = "<group>"; };
+		A4AA247D1FE181C500F673EE /* Bundle+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Additions.swift"; sourceTree = "<group>"; };
+		A4AA247F1FE1837F00F673EE /* TapLoginDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLoginDataSource.swift; sourceTree = "<group>"; };
+		A4AA24811FE1894500F673EE /* Notification.Name+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Additions.swift"; sourceTree = "<group>"; };
+		A4AA24831FE1901E00F673EE /* FeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesViewController.swift; sourceTree = "<group>"; };
+		A4AA24851FE1934100F673EE /* FeaturesViewController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeaturesViewController+UICollectionView.swift"; sourceTree = "<group>"; };
+		A4AA24871FE1937900F673EE /* InitialFeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialFeatureCell.swift; sourceTree = "<group>"; };
+		A4AA24891FE193A600F673EE /* InitialFeatureCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialFeatureCellDelegate.swift; sourceTree = "<group>"; };
+		A4AA248B1FE1965F00F673EE /* FeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCell.swift; sourceTree = "<group>"; };
+		A4AA248D1FE197E600F673EE /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		A4B927501FDE90A500A84EC6 /* LoginConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfirmationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4A3F2491FD8252B000FB91D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5B43BCB34B08B76F067CD4 /* Pods_TapLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C50C2A15BDC55D4A9A27A38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				500FB4F27CAE8F1D713F3FB7 /* Pods_TapLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51262F40B74A2E8758222347 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				943C3EFCCAC275CAA0853D5C /* Pods-TapLogin.debug.xcconfig */,
+				4FA18835D60CFF4C5C79AF69 /* Pods-TapLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4470CC41FD82A45001B5336 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A4AA247D1FE181C500F673EE /* Bundle+Additions.swift */,
+				A4980B4D1FE2C895000EB297 /* CountryUnavailableViewController.swift */,
+				A4AA248D1FE197E600F673EE /* Feature.swift */,
+				A4AA248B1FE1965F00F673EE /* FeatureCell.swift */,
+				A4AA24831FE1901E00F673EE /* FeaturesViewController.swift */,
+				A4AA24851FE1934100F673EE /* FeaturesViewController+UICollectionView.swift */,
+				A4AA24871FE1937900F673EE /* InitialFeatureCell.swift */,
+				A4AA24891FE193A600F673EE /* InitialFeatureCellDelegate.swift */,
+				A465DAD31FDD2A4F009FAA3C /* LoginAPIsHandler.swift */,
+				A4B927501FDE90A500A84EC6 /* LoginConfirmationViewController.swift */,
+				A4470CD21FD84B5C001B5336 /* LoginContainerViewController.swift */,
+				A4470CD61FD85CB5001B5336 /* LoginContentViewController.swift */,
+				A465DAD71FDD35AE009FAA3C /* LoginData.swift */,
+				A4470CC51FD82BDC001B5336 /* LoginNavigationController.swift */,
+				A4980B4B1FE2C2B8000EB297 /* LoginNavigationControllerDelegate.swift */,
+				A4470CD81FD85D2A001B5336 /* LoginPhoneNumberViewController.swift */,
+				A4AA24811FE1894500F673EE /* Notification.Name+Additions.swift */,
+				A465DAD51FDD3473009FAA3C /* PhoneNumber.swift */,
+				A4A33895201894850034C618 /* TapConfirmationCodeHandler.swift */,
+				A4A33893201894840034C618 /* TapConfirmationCodeValidationState.swift */,
+				A4470CC91FD82C90001B5336 /* TapLogin.swift */,
+				A4AA247F1FE1837F00F673EE /* TapLoginDataSource.swift */,
+				A4AA24771FE15EED00F673EE /* TapLoginDelegate.swift */,
+				A4470CCD1FD834B4001B5336 /* TapLoginLocalization.swift */,
+				A4470CCB1FD8347A001B5336 /* TapLoginLocalizationDataSource.swift */,
+				A4A33894201894840034C618 /* TapLoginRouter.swift */,
+				A4AA247B1FE181B800F673EE /* UIStoryboard+Additions.swift */,
+				A4470CC71FD82C4F001B5336 /* WelcomeViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A4470CCF1FD839DD001B5336 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4470CD01FD83A02001B5336 /* Images.xcassets */,
+				A4AA24791FE16A8500F673EE /* Login.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4A3F2431FD8252B000FB91D = {
+			isa = PBXGroup;
+			children = (
+				A4980B4F1FE2D96C000EB297 /* TapLoginV2.podspec */,
+				A4A3F24F1FD8252B000FB91D /* TapLogin */,
+				A4A3F24E1FD8252B000FB91D /* Products */,
+				51262F40B74A2E8758222347 /* Pods */,
+				4C50C2A15BDC55D4A9A27A38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4A3F24E1FD8252B000FB91D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3F24D1FD8252B000FB91D /* TapLogin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A3F24F1FD8252B000FB91D /* TapLogin */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3F2501FD8252B000FB91D /* TapLogin.h */,
+				A4A3F2511FD8252B000FB91D /* Info.plist */,
+				A4470CC41FD82A45001B5336 /* Source */,
+				A4470CCF1FD839DD001B5336 /* Resources */,
+			);
+			path = TapLogin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4A3F24A1FD8252B000FB91D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3F2521FD8252B000FB91D /* TapLogin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4A3F24C1FD8252B000FB91D /* TapLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A3F2551FD8252B000FB91D /* Build configuration list for PBXNativeTarget "TapLogin" */;
+			buildPhases = (
+				AA51BD23CC004292BB8E6AB1 /* [CP] Check Pods Manifest.lock */,
+				A4A3F2481FD8252B000FB91D /* Sources */,
+				A4A3F2491FD8252B000FB91D /* Frameworks */,
+				A4A3F24A1FD8252B000FB91D /* Headers */,
+				A4A3F24B1FD8252B000FB91D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapLogin;
+			productName = TapLogin;
+			productReference = A4A3F24D1FD8252B000FB91D /* TapLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4A3F2441FD8252B000FB91D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Tap Payments";
+				TargetAttributes = {
+					A4A3F24C1FD8252B000FB91D = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4A3F2471FD8252B000FB91D /* Build configuration list for PBXProject "TapLogin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4A3F2431FD8252B000FB91D;
+			productRefGroup = A4A3F24E1FD8252B000FB91D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4A3F24C1FD8252B000FB91D /* TapLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A3F24B1FD8252B000FB91D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4980B501FE2D96D000EB297 /* TapLoginV2.podspec in Resources */,
+				A4AA247A1FE16A8500F673EE /* Login.storyboard in Resources */,
+				A4470CD11FD83A02001B5336 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA51BD23CC004292BB8E6AB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4A3F2481FD8252B000FB91D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4470CC61FD82BDC001B5336 /* LoginNavigationController.swift in Sources */,
+				A4AA24881FE1937900F673EE /* InitialFeatureCell.swift in Sources */,
+				A4AA248A1FE193A600F673EE /* InitialFeatureCellDelegate.swift in Sources */,
+				A4B927511FDE90A500A84EC6 /* LoginConfirmationViewController.swift in Sources */,
+				A4AA247C1FE181B800F673EE /* UIStoryboard+Additions.swift in Sources */,
+				A4AA24841FE1901E00F673EE /* FeaturesViewController.swift in Sources */,
+				A4470CCC1FD8347A001B5336 /* TapLoginLocalizationDataSource.swift in Sources */,
+				A4470CD91FD85D2A001B5336 /* LoginPhoneNumberViewController.swift in Sources */,
+				A4A33898201894850034C618 /* TapConfirmationCodeHandler.swift in Sources */,
+				A4AA248E1FE197E600F673EE /* Feature.swift in Sources */,
+				A4AA24781FE15EED00F673EE /* TapLoginDelegate.swift in Sources */,
+				A4980B4C1FE2C2B8000EB297 /* LoginNavigationControllerDelegate.swift in Sources */,
+				A465DAD61FDD3473009FAA3C /* PhoneNumber.swift in Sources */,
+				A4A33896201894850034C618 /* TapConfirmationCodeValidationState.swift in Sources */,
+				A4470CD31FD84B5C001B5336 /* LoginContainerViewController.swift in Sources */,
+				A4470CCA1FD82C90001B5336 /* TapLogin.swift in Sources */,
+				A4AA248C1FE1965F00F673EE /* FeatureCell.swift in Sources */,
+				A4470CD71FD85CB5001B5336 /* LoginContentViewController.swift in Sources */,
+				A4AA24861FE1934100F673EE /* FeaturesViewController+UICollectionView.swift in Sources */,
+				A4470CCE1FD834B4001B5336 /* TapLoginLocalization.swift in Sources */,
+				A465DAD41FDD2A4F009FAA3C /* LoginAPIsHandler.swift in Sources */,
+				A4AA24801FE1837F00F673EE /* TapLoginDataSource.swift in Sources */,
+				A4470CC81FD82C4F001B5336 /* WelcomeViewController.swift in Sources */,
+				A4AA247E1FE181C500F673EE /* Bundle+Additions.swift in Sources */,
+				A4980B4E1FE2C895000EB297 /* CountryUnavailableViewController.swift in Sources */,
+				A4AA24821FE1894500F673EE /* Notification.Name+Additions.swift in Sources */,
+				A4A33897201894850034C618 /* TapLoginRouter.swift in Sources */,
+				A465DAD81FDD35AE009FAA3C /* LoginData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4A3F2531FD8252B000FB91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4A3F2541FD8252B000FB91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4A3F2561FD8252B000FB91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943C3EFCCAC275CAA0853D5C /* Pods-TapLogin.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapLogin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.ios.TapLoginV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4A3F2571FD8252B000FB91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA18835D60CFF4C5C79AF69 /* Pods-TapLogin.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapLogin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.ios.TapLoginV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4A3F2471FD8252B000FB91D /* Build configuration list for PBXProject "TapLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3F2531FD8252B000FB91D /* Debug */,
+				A4A3F2541FD8252B000FB91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A3F2551FD8252B000FB91D /* Build configuration list for PBXNativeTarget "TapLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3F2561FD8252B000FB91D /* Debug */,
+				A4A3F2571FD8252B000FB91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4A3F2441FD8252B000FB91D /* Project object */;
+}

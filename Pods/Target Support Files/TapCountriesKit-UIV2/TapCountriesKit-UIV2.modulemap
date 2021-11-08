@@ -1,0 +1,6 @@
+framework module TapCountriesKit_UIV2 {
+  umbrella header "TapCountriesKit-UIV2-umbrella.h"
+
+  export *
+  module * { export * }
+}

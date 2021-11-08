@@ -1,0 +1,6 @@
+framework module TapBrandBookIOSV2 {
+  umbrella header "TapBrandBookIOSV2-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TapMessagingV2 {
+  umbrella header "TapMessagingV2-umbrella.h"
+
+  export *
+  module * { export * }
+}

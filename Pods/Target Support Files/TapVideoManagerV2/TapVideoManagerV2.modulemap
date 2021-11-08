@@ -1,0 +1,6 @@
+framework module TapVideoManagerV2 {
+  umbrella header "TapVideoManagerV2-umbrella.h"
+
+  export *
+  module * { export * }
+}

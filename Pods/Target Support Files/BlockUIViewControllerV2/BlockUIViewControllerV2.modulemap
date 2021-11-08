@@ -1,0 +1,6 @@
+framework module BlockUIViewControllerV2 {
+  umbrella header "BlockUIViewControllerV2-umbrella.h"
+
+  export *
+  module * { export * }
+}

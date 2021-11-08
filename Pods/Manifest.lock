@@ -1,0 +1,153 @@
+PODS:
+  - BlockUIViewControllerV2 (1.0.0):
+    - TapGLKitV2
+    - TapSwiftFixesV2
+    - TapViewControllerV2
+  - EditableTextInsetsTextFieldV2 (0.0.2):
+    - TapAdditionsKitV2
+  - TapAdditionsKitV2 (0.0.8):
+    - TapSwiftFixesV2
+  - TapApplicationV2 (0.0.2):
+    - TapAdditionsKitV2
+  - TapBrandBookIOSV2 (1.0.1):
+    - TapAdditionsKitV2
+    - TapFontsKitV2
+    - TapLoggerV2
+    - TapSwiftFixesV2
+    - Toast-Swift
+  - TapCountriesKit-UIV2 (1.0.0):
+    - TapAdditionsKitV2
+    - TapApplicationV2
+    - TapBrandBookIOSV2
+    - TapCountriesKitV2
+    - TapGLKitV2
+    - TapSwiftFixesV2
+    - TapViewControllerV2
+    - TapVisualEffectViewV2
+  - TapCountriesKitV2 (1.0.1):
+    - TapDatabaseV2
+    - TapFlagsKitV2
+    - TapLocalizationV2
+  - TapDatabaseV2 (1.0.0):
+    - TapAdditionsKitV2
+  - TapFlagsKitV2 (1.0.0):
+    - TapAdditionsKitV2
+  - TapFontsKitV2 (0.0.3):
+    - TapAdditionsKitV2
+  - TapGLKitV2 (0.0.2):
+    - TapAdditionsKitV2
+  - TapLocalization-UIV2 (1.0.0):
+    - TapAdditionsKitV2
+    - TapBrandBookIOSV2
+    - TapFlagsKitV2
+    - TapFontsKitV2
+    - TapLocalizationV2
+    - TapNibViewV2
+    - TapSwiftFixesV2
+    - TapViewControllerV2
+  - TapLocalizationV2 (1.0.2):
+    - TapLocalizationV2/Core (= 1.0.2)
+  - TapLocalizationV2/Core (1.0.2):
+    - TapAdditionsKitV2
+    - TapDatabaseV2
+    - TapLoggerV2
+    - TapSwiftFixesV2
+  - TapLoggerV2 (1.0.1):
+    - TapAdditionsKitV2
+  - TapMessagingV2 (1.0.0):
+    - TapAdditionsKitV2
+  - TapNibViewV2 (0.0.2):
+    - TapAdditionsKitV2
+  - TapSearchViewV2 (0.0.4):
+    - TapAdditionsKitV2
+    - TapNibViewV2
+  - TapSwiftFixesV2 (1.0.0):
+    - TapSwiftFixesV2/CoreGraphics (= 1.0.0)
+    - TapSwiftFixesV2/Exceptions (= 1.0.0)
+    - TapSwiftFixesV2/Threading (= 1.0.0)
+  - TapSwiftFixesV2/CoreGraphics (1.0.0)
+  - TapSwiftFixesV2/Exceptions (1.0.0)
+  - TapSwiftFixesV2/Threading (1.0.0)
+  - TapVideoManagerV2 (1.0.1):
+    - TapAdditionsKitV2
+    - TapApplicationV2
+    - TapGLKitV2
+    - TapViewControllerV2
+  - TapViewControllerV2 (1.0.2):
+    - TapAdditionsKitV2
+    - TapApplicationV2
+    - TapFontsKitV2
+    - TapLocalizationV2
+    - TapLoggerV2
+    - TapSearchViewV2
+    - TapVisualEffectViewV2
+  - TapVisualEffectViewV2 (0.0.2):
+    - TapAdditionsKitV2
+    - TapNibViewV2
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - BlockUIViewControllerV2
+  - EditableTextInsetsTextFieldV2
+  - TapAdditionsKitV2
+  - TapBrandBookIOSV2
+  - TapCountriesKit-UIV2
+  - TapLocalization-UIV2
+  - TapMessagingV2
+  - TapSwiftFixesV2
+  - TapVideoManagerV2
+  - TapViewControllerV2
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - BlockUIViewControllerV2
+    - EditableTextInsetsTextFieldV2
+    - TapAdditionsKitV2
+    - TapApplicationV2
+    - TapBrandBookIOSV2
+    - TapCountriesKit-UIV2
+    - TapCountriesKitV2
+    - TapDatabaseV2
+    - TapFlagsKitV2
+    - TapFontsKitV2
+    - TapGLKitV2
+    - TapLocalization-UIV2
+    - TapLocalizationV2
+    - TapLoggerV2
+    - TapMessagingV2
+    - TapNibViewV2
+    - TapSearchViewV2
+    - TapSwiftFixesV2
+    - TapVideoManagerV2
+    - TapViewControllerV2
+    - TapVisualEffectViewV2
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  BlockUIViewControllerV2: e33e5e91d34734a95e87cac118795d6b484be3b1
+  EditableTextInsetsTextFieldV2: 09a945c086dbcef688fe4fbb8302b408c146c391
+  TapAdditionsKitV2: ba369802e9575c3475ce6d5af228cf60c68edfc9
+  TapApplicationV2: aee3d046c4272778431e1535de6cab34e1269f8c
+  TapBrandBookIOSV2: cd72b4b444e30dd68fea316f737c261bf7276685
+  TapCountriesKit-UIV2: 756bbc4f92f88d9a5d76fbd9d382462946d8b800
+  TapCountriesKitV2: 9e63eaac430494e8b12da4866cbe2b9a07bb2603
+  TapDatabaseV2: 81600804e6026009a55dbd967e02828c3353d80f
+  TapFlagsKitV2: 688fde8071e3a70625088d22ca79ac1e8e96f760
+  TapFontsKitV2: f2a5b342c18784dd2068c1885313057780c49a3d
+  TapGLKitV2: d3ef8bc5d1655a1d46e1696cfdcf19ae6e6d4d35
+  TapLocalization-UIV2: cece3085397f9f2217f1a440cb29a282e7167e34
+  TapLocalizationV2: 3fccc23eb14e6f6bc9c96a1e072ffcbb5162f485
+  TapLoggerV2: ef63571a8b96640c7bb171724ff61aef3aa21e71
+  TapMessagingV2: 6d19e954dea2856b2cde670a310a5113ba99f43e
+  TapNibViewV2: 814b18346837d9dab611a211a702b9b0b8369d07
+  TapSearchViewV2: a167173db767a2be86d66c319cbb6b8da1541531
+  TapSwiftFixesV2: a8623a7273c6790b9754ec7e272e96fce7d3a800
+  TapVideoManagerV2: f2090e8eb09e606f90bba5ebef40d5a030ab9ba6
+  TapViewControllerV2: 1cfd0fb53d4a020175ca3be8b028da21c10ced26
+  TapVisualEffectViewV2: b612ffee4d05004c449d433fe45aba9563c8a508
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 61a6cfb0cfd9dc372a5ec1d2c52212dc5b3984f6
+
+COCOAPODS: 1.10.1

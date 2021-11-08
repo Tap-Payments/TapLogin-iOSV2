@@ -1,0 +1,6 @@
+framework module TapFlagsKitV2 {
+  umbrella header "TapFlagsKitV2-umbrella.h"
+
+  export *
+  module * { export * }
+}
