@@ -6,7 +6,7 @@ Pod::Spec.new do |tapLogin|
     tapLogin.name = 'TapLoginV2'
     tapLogin.summary = 'Whole login flow for Tap iOS applications.'
     tapLogin.requires_arc = true
-    tapLogin.version = '1.0.0'
+    tapLogin.version = '1.0.1'
     tapLogin.license = { :type => 'MIT', :file => 'LICENSE' }
     tapLogin.author = { 'Osama Rabie' => 'o.rabie@tap.company' }
     tapLogin.homepage = 'https://github.com/Tap-Payments/TapLogin-iOSV2'
@@ -23,7 +23,7 @@ Pod::Spec.new do |tapLogin|
     tapLogin.dependency 'TapMessagingV2'
     tapLogin.dependency 'TapSwiftFixesV2'
     tapLogin.dependency 'TapVideoManagerV2'
-    tapLogin.dependency 'TapViewControllerVs'
+    tapLogin.dependency 'TapViewControllerV2'
     tapLogin.dependency 'Toast-Swift'
     
 end
