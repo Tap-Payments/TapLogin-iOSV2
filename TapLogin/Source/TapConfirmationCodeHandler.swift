@@ -5,7 +5,6 @@
 //  Created by Philonenko Andrey on 23.01.2018.
 //
 
-import BlockUIViewControllerV2
 import TapViewControllerV2
 
 public class TapConfirmationCodeHandler {

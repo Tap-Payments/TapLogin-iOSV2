@@ -66,7 +66,7 @@ public class BlockUIViewController: PopupViewController {
 
     public override class func instantiate() -> Self {
 
-        let controller = BlockUIViewController(nibName: self.tap_className, bundle: .blockUIControllerResourcesBundle)
+        let controller = BlockUIViewController(nibName: self.tap_className, bundle: .loginResourcesBundle)
         controller.affectsAppearanceMethods = false
 
         return controller.tap_asSelf()

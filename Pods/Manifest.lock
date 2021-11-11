@@ -1,8 +1,4 @@
 PODS:
-  - BlockUIViewControllerV2 (1.0.0):
-    - TapGLKitV2
-    - TapSwiftFixesV2
-    - TapViewControllerV2
   - EditableTextInsetsTextFieldV2 (0.0.2):
     - TapAdditionsKitV2
   - TapAdditionsKitV2 (0.0.8):
@@ -87,7 +83,6 @@ PODS:
   - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
-  - BlockUIViewControllerV2
   - EditableTextInsetsTextFieldV2
   - TapAdditionsKitV2
   - TapBrandBookIOSV2
@@ -101,7 +96,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - BlockUIViewControllerV2
     - EditableTextInsetsTextFieldV2
     - TapAdditionsKitV2
     - TapApplicationV2
@@ -125,7 +119,6 @@ SPEC REPOS:
     - Toast-Swift
 
 SPEC CHECKSUMS:
-  BlockUIViewControllerV2: e33e5e91d34734a95e87cac118795d6b484be3b1
   EditableTextInsetsTextFieldV2: 09a945c086dbcef688fe4fbb8302b408c146c391
   TapAdditionsKitV2: ba369802e9575c3475ce6d5af228cf60c68edfc9
   TapApplicationV2: aee3d046c4272778431e1535de6cab34e1269f8c
@@ -148,6 +141,6 @@ SPEC CHECKSUMS:
   TapVisualEffectViewV2: b612ffee4d05004c449d433fe45aba9563c8a508
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 61a6cfb0cfd9dc372a5ec1d2c52212dc5b3984f6
+PODFILE CHECKSUM: 1dad3c2b356831c4aa32c33e848f15caf19b5601
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2
