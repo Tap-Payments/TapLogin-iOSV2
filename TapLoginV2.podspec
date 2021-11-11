@@ -6,7 +6,7 @@ Pod::Spec.new do |tapLogin|
     tapLogin.name = 'TapLoginV2'
     tapLogin.summary = 'Whole login flow for Tap iOS applications.'
     tapLogin.requires_arc = true
-    tapLogin.version = '1.0.2'
+    tapLogin.version = '1.0.3'
     tapLogin.license = { :type => 'MIT', :file => 'LICENSE' }
     tapLogin.author = { 'Osama Rabie' => 'o.rabie@tap.company' }
     tapLogin.homepage = 'https://github.com/Tap-Payments/TapLogin-iOSV2'
@@ -14,7 +14,6 @@ Pod::Spec.new do |tapLogin|
     tapLogin.source_files = 'TapLogin/Source/*.swift'
     tapLogin.ios.resource_bundle = { 'TapLoginResources' => 'TapLogin/Resources/*.{storyboard,xcassets}' }
     
-    tapLogin.dependency 'BlockUIViewControllerV2'
     tapLogin.dependency 'EditableTextInsetsTextFieldV2'
     tapLogin.dependency 'TapAdditionsKitV2'
     tapLogin.dependency 'TapBrandBookIOSV2'
