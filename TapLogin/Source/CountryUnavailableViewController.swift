@@ -6,6 +6,7 @@
 //  Copyright © 2017 Tap Payments. All rights reserved.
 //
 
+import class BlockUIViewControllerV2.BlockUIViewController
 import class TapBrandBookIOSV2.UIButtonBrander
 import class TapBrandBookIOSV2.UILabelBrander
 import class TapFlagsKitV2.TapFlagsKit

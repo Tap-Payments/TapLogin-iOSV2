@@ -6,6 +6,7 @@
 //  Copyright © 2017 Tap Payments. All rights reserved.
 //
 
+import BlockUIViewControllerV2
 import TapAdditionsKitV2
 import TapBrandBookIOSV2
 import TapCountriesKitV2

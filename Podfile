@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'TapLogin' do
   
+  pod 'BlockUIViewControllerV2'
   pod 'EditableTextInsetsTextFieldV2'
   pod 'TapAdditionsKitV2'
   pod 'TapBrandBookIOSV2'

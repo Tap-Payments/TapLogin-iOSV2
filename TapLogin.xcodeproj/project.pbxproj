@@ -40,8 +40,6 @@
 		A4AA248E1FE197E600F673EE /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA248D1FE197E600F673EE /* Feature.swift */; };
 		A4B927511FDE90A500A84EC6 /* LoginConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B927501FDE90A500A84EC6 /* LoginConfirmationViewController.swift */; };
 		BB5B43BCB34B08B76F067CD4 /* Pods_TapLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500FB4F27CAE8F1D713F3FB7 /* Pods_TapLogin.framework */; };
-		E8CA0948273CD4F800082E33 /* BlockUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA0947273CD4F800082E33 /* BlockUIViewController.swift */; };
-		E8CA094B273CD50900082E33 /* BlockUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8CA094A273CD50900082E33 /* BlockUIViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,8 +80,6 @@
 		A4AA248B1FE1965F00F673EE /* FeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCell.swift; sourceTree = "<group>"; };
 		A4AA248D1FE197E600F673EE /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		A4B927501FDE90A500A84EC6 /* LoginConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfirmationViewController.swift; sourceTree = "<group>"; };
-		E8CA0947273CD4F800082E33 /* BlockUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockUIViewController.swift; sourceTree = "<group>"; };
-		E8CA094A273CD50900082E33 /* BlockUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlockUIViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +116,6 @@
 			children = (
 				A4AA247D1FE181C500F673EE /* Bundle+Additions.swift */,
 				A4980B4D1FE2C895000EB297 /* CountryUnavailableViewController.swift */,
-				E8CA0947273CD4F800082E33 /* BlockUIViewController.swift */,
 				A4AA248D1FE197E600F673EE /* Feature.swift */,
 				A4AA248B1FE1965F00F673EE /* FeatureCell.swift */,
 				A4AA24831FE1901E00F673EE /* FeaturesViewController.swift */,
@@ -154,7 +149,6 @@
 		A4470CCF1FD839DD001B5336 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E8CA094A273CD50900082E33 /* BlockUIViewController.xib */,
 				A4470CD01FD83A02001B5336 /* Images.xcassets */,
 				A4AA24791FE16A8500F673EE /* Login.storyboard */,
 			);
@@ -264,7 +258,6 @@
 			files = (
 				A4980B501FE2D96D000EB297 /* TapLoginV2.podspec in Resources */,
 				A4AA247A1FE16A8500F673EE /* Login.storyboard in Resources */,
-				E8CA094B273CD50900082E33 /* BlockUIViewController.xib in Resources */,
 				A4470CD11FD83A02001B5336 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +302,6 @@
 				A4AA248E1FE197E600F673EE /* Feature.swift in Sources */,
 				A4AA24781FE15EED00F673EE /* TapLoginDelegate.swift in Sources */,
 				A4980B4C1FE2C2B8000EB297 /* LoginNavigationControllerDelegate.swift in Sources */,
-				E8CA0948273CD4F800082E33 /* BlockUIViewController.swift in Sources */,
 				A465DAD61FDD3473009FAA3C /* PhoneNumber.swift in Sources */,
 				A4A33896201894850034C618 /* TapConfirmationCodeValidationState.swift in Sources */,
 				A4470CD31FD84B5C001B5336 /* LoginContainerViewController.swift in Sources */,
