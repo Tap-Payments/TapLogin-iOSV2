@@ -1,5 +1,5 @@
 PODS:
-  - BlockUIViewControllerV2 (1.0.0):
+  - BlockUIViewControllerV2 (1.0.1):
     - TapGLKitV2
     - TapSwiftFixesV2
     - TapViewControllerV2
@@ -73,7 +73,7 @@ PODS:
     - TapApplicationV2
     - TapGLKitV2
     - TapViewControllerV2
-  - TapViewControllerV2 (1.0.2):
+  - TapViewControllerV2 (1.0.3):
     - TapAdditionsKitV2
     - TapApplicationV2
     - TapFontsKitV2
@@ -125,7 +125,7 @@ SPEC REPOS:
     - Toast-Swift
 
 SPEC CHECKSUMS:
-  BlockUIViewControllerV2: e33e5e91d34734a95e87cac118795d6b484be3b1
+  BlockUIViewControllerV2: 89c8234af1dc43254b084e6bcd7d25c6ceda778d
   EditableTextInsetsTextFieldV2: 09a945c086dbcef688fe4fbb8302b408c146c391
   TapAdditionsKitV2: ba369802e9575c3475ce6d5af228cf60c68edfc9
   TapApplicationV2: aee3d046c4272778431e1535de6cab34e1269f8c
@@ -144,10 +144,10 @@ SPEC CHECKSUMS:
   TapSearchViewV2: a167173db767a2be86d66c319cbb6b8da1541531
   TapSwiftFixesV2: a8623a7273c6790b9754ec7e272e96fce7d3a800
   TapVideoManagerV2: f2090e8eb09e606f90bba5ebef40d5a030ab9ba6
-  TapViewControllerV2: 1cfd0fb53d4a020175ca3be8b028da21c10ced26
+  TapViewControllerV2: aaba4b0d1ce08f4aecef83d859fdf79a7c6ca62d
   TapVisualEffectViewV2: b612ffee4d05004c449d433fe45aba9563c8a508
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
 PODFILE CHECKSUM: 61a6cfb0cfd9dc372a5ec1d2c52212dc5b3984f6
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

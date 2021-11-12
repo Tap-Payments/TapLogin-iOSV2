@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Features View Controller-->
         <scene sceneID="4HT-re-HJz">
             <objects>
-                <viewController storyboardIdentifier="FeaturesViewController" automaticallyAdjustsScrollViewInsets="NO" id="Po3-dD-Mmf" customClass="FeaturesViewController" customModule="TapLogin" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeaturesViewController" automaticallyAdjustsScrollViewInsets="NO" id="Po3-dD-Mmf" customClass="FeaturesViewController" customModule="TapLoginV2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k0k-A8-rX3"/>
                         <viewControllerLayoutGuide type="bottom" id="J4p-Cm-XNH"/>
@@ -50,7 +47,7 @@
                                                     <rect key="frame" x="0.0" y="183" width="320" height="237"/>
                                                     <subviews>
                                                         <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBh-0R-QvL" userLabel="Play video button">
-                                                            <rect key="frame" x="125" y="64" width="70" height="70"/>
+                                                            <rect key="frame" x="125" y="63.5" width="70" height="70"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="70" id="T3i-dB-LwB"/>
                                                                 <constraint firstAttribute="height" constant="70" id="voz-3K-Unk"/>
@@ -93,21 +90,21 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="420"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cci-Ex-dwW">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cci-Ex-dwW">
                                                     <rect key="frame" x="114.5" y="32" width="91" height="91"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="91" id="2kW-bl-vzM"/>
                                                         <constraint firstAttribute="width" constant="91" id="qVM-4Y-E0b"/>
                                                     </constraints>
                                                 </imageView>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Rf-AS-RKs">
+                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Rf-AS-RKs">
                                                     <rect key="frame" x="0.0" y="123" width="320" height="297"/>
                                                     <subviews>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uqO-aA-QTV">
+                                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uqO-aA-QTV">
                                                             <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
                                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feature Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="oYh-NS-Khu">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Feature Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="oYh-NS-Khu">
                                                             <rect key="frame" x="8" y="45.5" width="304" height="32"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="32" id="og2-Ry-4me"/>
@@ -116,11 +113,11 @@
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbz-1L-ljA">
+                                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dbz-1L-ljA">
                                                             <rect key="frame" x="0.0" y="77.5" width="320" height="45"/>
                                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It allows you to keep track of all packages and find out when your items are going to be delivered." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vjb-Rq-dKb">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="It allows you to keep track of all packages and find out when your items are going to be delivered." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vjb-Rq-dKb">
                                                             <rect key="frame" x="8" y="122.5" width="304" height="64"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="64" id="uOF-TI-O4h"/>
@@ -130,11 +127,11 @@
                                                             <nil key="highlightedColor"/>
                                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                                         </label>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8sT-zr-jVi">
+                                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8sT-zr-jVi">
                                                             <rect key="frame" x="0.0" y="186.5" width="320" height="45.5"/>
                                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R2T-bo-iNJ">
+                                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R2T-bo-iNJ">
                                                             <rect key="frame" x="0.0" y="232" width="320" height="45"/>
                                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
@@ -192,7 +189,7 @@
                                 </connections>
                             </collectionView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="eEd-tK-bgB">
-                                <rect key="frame" x="0.0" y="384" width="320" height="37"/>
+                                <rect key="frame" x="0.0" y="393.5" width="320" height="27.5"/>
                                 <connections>
                                     <action selector="featuresPageControlValueChanged:" destination="Po3-dD-Mmf" eventType="valueChanged" id="bzl-X2-Pcc"/>
                                 </connections>
@@ -224,7 +221,7 @@
         <!--Login Container View Controller-->
         <scene sceneID="GcT-Jo-HBd">
             <objects>
-                <viewController storyboardIdentifier="LoginContainerViewController" automaticallyAdjustsScrollViewInsets="NO" id="2Fd-Tt-a1n" customClass="LoginContainerViewController" customModule="TapLogin" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginContainerViewController" automaticallyAdjustsScrollViewInsets="NO" id="2Fd-Tt-a1n" customClass="LoginContainerViewController" customModule="TapLoginV2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Wb6-Tb-SpW"/>
                         <viewControllerLayoutGuide type="bottom" id="uE9-2f-7J6"/>
@@ -241,7 +238,7 @@
                                 </connections>
                             </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lV2-Vm-VrA">
-                                <rect key="frame" x="0.0" y="20" width="375" height="163"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="183"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VI0-Ug-q9j">
                                         <rect key="frame" x="50" y="80" width="275" height="32"/>
@@ -266,7 +263,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ah-Xo-SFE">
-                                        <rect key="frame" x="321" y="7" width="36" height="32"/>
+                                        <rect key="frame" x="321" y="6.5" width="36" height="32"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="Next">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -331,7 +328,7 @@
         <!--Tap Navigation Controller-->
         <scene sceneID="4If-VG-Nd8">
             <objects>
-                <navigationController autoresizesArchivedViewToFullSize="NO" extendedLayoutIncludesOpaqueBars="YES" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="currentContext" navigationBarHidden="YES" id="jZM-go-WUL" customClass="TapNavigationController" customModule="TapViewController" sceneMemberID="viewController">
+                <navigationController autoresizesArchivedViewToFullSize="NO" extendedLayoutIncludesOpaqueBars="YES" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="currentContext" navigationBarHidden="YES" id="jZM-go-WUL" customClass="TapNavigationController" customModule="TapViewControllerV2" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aEX-qc-Rw6">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -346,7 +343,7 @@
         <!--Country Unavailable View Controller-->
         <scene sceneID="Juc-Bd-Lnf">
             <objects>
-                <viewController storyboardIdentifier="CountryUnavailableViewController" id="VFt-iQ-Xjm" customClass="CountryUnavailableViewController" customModule="TapLogin" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CountryUnavailableViewController" id="VFt-iQ-Xjm" customClass="CountryUnavailableViewController" customModule="TapLoginV2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Wf8-w6-cae"/>
                         <viewControllerLayoutGuide type="bottom" id="pfB-vs-SEB"/>
@@ -369,14 +366,14 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g4y-bY-gA5">
-                                <rect key="frame" x="151" y="96" width="73" height="73"/>
+                                <rect key="frame" x="151" y="76" width="73" height="73"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="73" id="4Kx-lE-JUQ"/>
                                     <constraint firstAttribute="width" constant="73" id="9vf-Kf-PCV"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="goTap is currently expanding country by country in the Middle East" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boi-3d-mqd">
-                                <rect key="frame" x="16" y="195" width="343" height="42.5"/>
+                                <rect key="frame" x="16" y="175" width="343" height="42.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" priority="250" constant="10" id="5ut-OA-eYW"/>
                                 </constraints>
@@ -435,10 +432,10 @@
             </objects>
             <point key="canvasLocation" x="4193" y="-225"/>
         </scene>
-        <!--Delegate-->
+        <!--Welcome View Controller-->
         <scene sceneID="6IP-po-j6M">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="AZt-yB-riY" customClass="WelcomeViewController" customModule="TapLogin" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="AZt-yB-riY" customClass="WelcomeViewController" customModule="TapLoginV2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aje-eD-o61"/>
                         <viewControllerLayoutGuide type="bottom" id="Ddh-gZ-zCh"/>
@@ -524,7 +521,7 @@
         <!--Login Phone Number View Controller-->
         <scene sceneID="CNR-sw-NOr">
             <objects>
-                <viewController storyboardIdentifier="LoginPhoneNumberViewController" extendedLayoutIncludesOpaqueBars="YES" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="currentContext" id="IhB-4d-PyU" customClass="LoginPhoneNumberViewController" customModule="TapLogin" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginPhoneNumberViewController" extendedLayoutIncludesOpaqueBars="YES" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="currentContext" id="IhB-4d-PyU" customClass="LoginPhoneNumberViewController" customModule="TapLoginV2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cGt-g0-UUg"/>
                         <viewControllerLayoutGuide type="bottom" id="S0X-LP-1xe"/>
@@ -537,7 +534,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="86" height="50"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="choose_code_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="2cw-ZC-REZ">
-                                        <rect key="frame" x="71" y="19" width="8" height="13"/>
+                                        <rect key="frame" x="71" y="18.5" width="8" height="13"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="8" id="PBH-FG-Mqj"/>
                                             <constraint firstAttribute="height" constant="13" id="kWy-V3-8sD"/>
@@ -641,7 +638,7 @@
         <!--Login Confirmation View Controller-->
         <scene sceneID="Qpi-8P-QCL">
             <objects>
-                <viewController storyboardIdentifier="LoginConfirmationViewController" extendedLayoutIncludesOpaqueBars="YES" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="currentContext" id="zo2-FX-kGF" customClass="LoginConfirmationViewController" customModule="TapLogin" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginConfirmationViewController" extendedLayoutIncludesOpaqueBars="YES" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="currentContext" id="zo2-FX-kGF" customClass="LoginConfirmationViewController" customModule="TapLoginV2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GlH-UQ-OCn"/>
                         <viewControllerLayoutGuide type="bottom" id="EIz-6T-stI"/>
@@ -749,7 +746,7 @@
         <!--Login Navigation Controller-->
         <scene sceneID="WHw-i2-OhN">
             <objects>
-                <navigationController storyboardIdentifier="LoginNavigationController" autoresizesArchivedViewToFullSize="NO" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="dfh-z8-QB8" customClass="LoginNavigationController" customModule="TapLogin" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginNavigationController" autoresizesArchivedViewToFullSize="NO" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="dfh-z8-QB8" customClass="LoginNavigationController" customModule="TapLoginV2" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="ERC-OI-AfK">
@@ -779,6 +776,14 @@
             <point key="canvasLocation" x="123.2" y="313.04347826086962"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="Kxw-TJ-Ype">
+            <size key="intrinsicContentSize" width="153.5" height="23"/>
+        </designable>
+        <designable name="upf-tS-mqr">
+            <size key="intrinsicContentSize" width="107" height="50"/>
+        </designable>
+    </designables>
     <resources>
         <image name="arrow_back" width="41" height="41"/>
         <image name="arrow_welcome" width="12" height="20"/>
